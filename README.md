@@ -27,4 +27,4 @@ THEATRHYTHM RED
 - Links (thread titles): #FFDD11 - hover: #FFFF33
 - Links (in posts): (same as Cit Green) - hover: (same as Cit Green)
 - Rank color: #FF5555
-- Main menu bar: rgba(50,0,80,1.0);
+- Main menu bar: rgba(50,0,80,1.0)
