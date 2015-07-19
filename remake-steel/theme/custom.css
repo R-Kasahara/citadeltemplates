@@ -1,0 +1,67 @@
+/* Custom CSS for PBTech
+
+You can customize whatever you want.
+Some defaults are included, like on PBWoW.com
+
+Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
+
+*/
+
+#logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	width: 470px;
+	height: 100px;
+	margin: 0px 0;
+}
+
+
+/* Special post styles - not clear what a use case for this would be
+--------------------------------------------- */
+
+.blizz .post,
+.blizz #viewprofile .panel:first-of-type { background: rgba(40,40,40,0.6);url("./images/staff.gif") no-repeat 0 0; }
+.blizz .content { color: #086d97; }
+.blizz .content strong { color: #41aef0; }
+
+.mvp .post,
+.mvp #viewprofile .panel:first-of-type { background: #dbdfda; }
+.mvp .content { color: #038515; }
+.mvp .content strong { color: #63913e; }
+
+
+/* Post profiles - find out what "blizz", "mvp", and "propass" mean before changing
+--------------------------------------------- */
+
+.blizz .postprofile .avatar img {
+	border-color: #77c1ff;
+	box-shadow: 0 0 8px rgba(1,93,255,0.5);
+}
+
+.mvp .postprofile .avatar img {
+	border-color: #79ad50;
+	box-shadow: 0 0 8px rgba(186,255,0,0.2);
+}
+
+.propass .postprofile .avatar img {
+	border-color: #f3a900;
+	box-shadow: 0 0 8px rgba(243,169,0,0.2);
+}
+
+
+/* Hide repetitive post titles
+--------------------------------------------- */
+
+body.section-viewtopic .postbody h3,
+#qr_postform .fields1 > dl {
+	display: none;
+}
+
+body.section-viewtopic .postbody p.author {
+	clear: none;
+	margin: 0;
+	padding: 8px 0 12px;
+}
+
+/* SPECIAL FOR THE CITADEL 
+--------------------------------------------- */
+
