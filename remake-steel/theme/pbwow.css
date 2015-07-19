@@ -232,7 +232,7 @@ h2 a:active { color: #00C0FF; }
 h2.solo { margin-bottom: 0.5em; }
 
 h3 {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #999999;
 	color: #888;
 }
 h3 a:hover { text-decoration: none; }

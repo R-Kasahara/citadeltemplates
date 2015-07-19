@@ -1057,7 +1057,7 @@ input.button1:active, input.button3:active, input.button2:active {
 }
 .pagination li.active span {
 	color: #FFFFFF;
-	background-color: rgba(0,70,70,0.6);
+	background-color: rgba(0,70,70,1.0);
 	border-color: transparent;
 }
 .pagination li.active span:hover {
@@ -1253,7 +1253,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 	font-weight: bold;
 }
 .dropdown-contents .small-icon > a:before {
-	color: #999999;
+	color: #CCCCCC;
 	text-shadow: none;
 }
 

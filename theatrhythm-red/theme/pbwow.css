@@ -232,7 +232,7 @@ h2 a:active { color: #00C0FF; }
 h2.solo { margin-bottom: 0.5em; }
 
 h3 {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #999999;
 	color: #888;
 }
 h3 a:hover { text-decoration: none; }
@@ -1920,16 +1920,16 @@ dl.mini dt {
 }
 
 .pagination li a {
-	color: #CCC;
-	background-color: #1A1A1A;
-	border-color: #575757;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-color: #000000;
 }
 
 .pagination li a:hover,
 .pagination .active a:hover,
 .pagination .dropdown-visible a.dropdown-trigger,
 .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #FFF;
+	border-color: transparent;
 	background-color: #000;
 	color: #FFF;
 	text-decoration: none;

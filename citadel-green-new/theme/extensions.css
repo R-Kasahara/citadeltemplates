@@ -715,13 +715,12 @@ div.avatarMessage {
 --------------------------------------------- */
 .mini-panel {
 	background: #115500;
-	border-color: #999999;
-	border-width: 1px 1px 1px 1px;
+	border: 0;
 	box-shadow: none;
 }
 
 ul.menu li {
-	border-color: #cccccc;
+	border-color: #999999;
 }
 
 .boardrules-header {

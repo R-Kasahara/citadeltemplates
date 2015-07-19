@@ -648,7 +648,7 @@ blockquote { color: #FFFFFF; text-shadow: none; }
 /* Content */
 
 blockquote {
-	background-color: rgba(50,0,80,0.6);
+	background-color: rgba(50,0,80,1.0);
 	border: none;
 	border-radius: 5px;
 	box-shadow: none;
@@ -656,7 +656,7 @@ blockquote {
 }
 
 blockquote blockquote {
-	background-color: rgba(72,0,120,0.6);
+	background-color: rgba(72,0,120,1.0);
 	}
 
 .codebox,
@@ -1044,15 +1044,15 @@ input.button1:active, input.button3:active, input.button2:active {
 .pagination li.page-jump a, .pagination li.next a, .pagination li.previous a {
 	background: #0000000;
 	border-color: transparent;
-	color: #CECECE;
+	color: #FFFFFF;
 }
 .pagination li a:hover,
 .pagination .active a:hover,
 .pagination .dropdown-visible a.dropdown-trigger,
 .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #000000;
+	background: #1A1A1A;
 	border-color: transparent;
-	color: #FFF;
+	color: #CCCCCC;
 	text-decoration: none;
 	box-shadow: none;
 }
@@ -1254,7 +1254,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 	font-weight: bold;
 }
 .dropdown-contents .small-icon > a:before {
-	color: #999999;
+	color: #CCCCCC;
 	text-shadow: none;
 }
 
