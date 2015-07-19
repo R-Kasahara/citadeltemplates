@@ -148,12 +148,16 @@
 		<!-- IF postrow.POSTER_POSTS != '' --><dd class="profile-posts"><strong>{L_POSTS}{L_COLON}</strong> <!-- IF postrow.U_SEARCH !== '' --><a href="{postrow.U_SEARCH}"><!-- ENDIF -->{postrow.POSTER_POSTS}<!-- IF postrow.U_SEARCH !== '' --></a><!-- ENDIF --></dd><!-- ENDIF -->
 		<!-- IF postrow.POSTER_WARNINGS --><dd class="profile-warnings"><strong>{L_WARNINGS}{L_COLON}</strong> {postrow.POSTER_WARNINGS}</dd><!-- ENDIF -->
 
+				<!-- IF postrow.S_PROFILE_PHPBB_LOCATION -->
+			<!-- Use a construct like this to include admin defined profile fields. Replace FIELD1 with the name of your field. -->
+			<dd><strong>{postrow.PROFILE_PHPBB_LOCATION_NAME}{L_COLON}</strong> {postrow.PROFILE_PHPBB_LOCATION_VALUE}</dd>
+		<!-- ENDIF -->
+		
 		<!-- BEGIN custom_fields -->
 			<!-- IF not postrow.custom_fields.S_PROFILE_CONTACT -->
-				<dd class="profile-custom-field profile-{postrow.custom_fields.PROFILE_FIELD_IDENT}"><strong>{postrow.custom_fields.PROFILE_FIELD_NAME}{L_COLON}</strong> {postrow.custom_fields.PROFILE_FIELD_VALUE}</dd>
+				<!-- <dd class="profile-custom-field profile-{postrow.custom_fields.PROFILE_FIELD_IDENT}"><strong>{postrow.custom_fields.PROFILE_FIELD_NAME}{L_COLON}</strong> {postrow.custom_fields.PROFILE_FIELD_VALUE}</dd> -->
 			<!-- ENDIF -->
 		<!-- END custom_fields -->
-
 
 		<!-- EVENT viewtopic_body_contact_fields_before -->
 		<!-- IF not S_IS_BOT and .postrow.contact -->
