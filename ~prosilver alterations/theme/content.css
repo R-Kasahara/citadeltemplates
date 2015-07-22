@@ -717,12 +717,12 @@ fieldset.polls dd div {
 }
 
 .postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 }
 
 /* Post-profile avatars */
 .postprofile .has-avatar .avatar-container {
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	overflow: hidden;
 }
 
