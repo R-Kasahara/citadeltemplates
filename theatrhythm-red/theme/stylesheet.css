@@ -506,7 +506,7 @@ table.table1 tbody .big-column td {
 .no-avatar .avatar-container {
 	background: url("./images/no_avatar.png") no-repeat;
 	min-height: 100px;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 }
 
 .postprofile .avatar {
