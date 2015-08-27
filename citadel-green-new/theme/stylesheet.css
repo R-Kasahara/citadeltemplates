@@ -850,18 +850,19 @@ input.button1:active, input.button3:active, input.button2:active {
 
 /* Posting */
 #format-buttons input {
-	background: #444;
-	background: linear-gradient(#585858, #444444);
-	border-color: #a3a1a0;
-	box-shadow: none;
+	background: #003000;
+	background: linear-gradient(rgba(6, 48, 0, 1), rgba(0, 0, 0, 1)) ;
+	border: none;
 	color: #FFF;
+	transition: all 0.3s;
 }
 
 #format-buttons input:hover {
-	background: #606060;
-	background: linear-gradient(#838383, #606060);
-	border-color: #dcdada;
-	box-shadow: none;
+	background: #003000;
+	background: linear-gradient(rgba(6, 48, 0, 0.5), rgba(0, 0, 0, 0.5));
+	border: none;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+	color: #FFF;
 }
 
 /* Search box (header)
