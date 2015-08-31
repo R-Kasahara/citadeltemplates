@@ -637,9 +637,9 @@ blockquote { color: #FFFFFF; text-shadow: none; }
 
 .postprofile strong { color: #FFFFFF; }
 
-.post:target {
+/* .post:target {
 	border: 0;
-}
+} */
 
 .post:target .content {
 	color: #FFFFFF;
