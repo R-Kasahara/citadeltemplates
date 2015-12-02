@@ -663,11 +663,11 @@ code.inline {
 	background: rgba(67, 67, 67, 0.0);
 	border-color: transparent;
 	box-shadow: none;
-	color: #006b27;
+	color: #BCBCBC;
 }
 
 .codebox code {
-	color: #006b27;
+	color: #BCBCBC;
 }
 
 .codebox p {
